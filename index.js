@@ -1,8 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api')
 const request = require ('request')
 const cam = require('camaro')
-const fs = require('fs') //для доступа к файлам внутри nodejs
-//const _= require('lodash') //рандомизатор для nodejs
+const fs = require('fs')
 const TOKEN = '407431377:AAGOvgVNmbzP6ne4jZNXmVdfaM6f3fnIZj0'
 const bot = new TelegramBot(TOKEN, {
     polling: true
